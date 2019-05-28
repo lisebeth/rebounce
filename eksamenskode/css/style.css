@@ -170,6 +170,7 @@ p {
     margin-left: 1.5em;
     display: flex;
     align-items: flex-start;
+    cursor: pointer;
 }
 
 #download {
@@ -183,21 +184,21 @@ p {
     border-radius: 12px;
 }
 
-#how-it-works {
+#howItWorks {
     width: 50%;
 }
 
-#how-it-works p {
+#howItWorks p {
     font-weight: bold;
     padding-left: 3em;
 }
 
-#how-it-works img {
+#howItWorks img {
     margin-left: 6em;
     margin-top: -30px;
 }
 
-#how-it-works a{
+#howItWorks a{
     text-decoration: none;
     color: #000;
 }
