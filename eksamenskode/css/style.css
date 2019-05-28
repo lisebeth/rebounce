@@ -1,0 +1,656 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'AktivGroteskW01-Regular','Helvetica';
+}
+
+html {
+    width:100%,
+}
+
+
+header {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    background-color: white;
+    font-family: 'AktivGroteskW01-Bold','Helvetica';
+    border-bottom: solid 3px #ff8d1d;
+}
+#main-nav li{
+    white-space: nowrap;
+}
+
+header a {
+    color: #ff8d1d;
+     font-family: 'AktivGroteskW01-Bold','Helvetica';
+    font-weight: bold;
+    padding: 1em;
+}
+
+/*Main*/
+
+h1 {
+    justify-content: center;
+    font-size: 3.5em;
+    color: #ff521d;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'AktivGroteskW01-Bold','Helvetica';
+    
+}
+
+h2 {
+    color: #ff521d;
+    font-size: 1em;
+    font-family: 'AktivGroteskW01-Bold','Helvetica';
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+body {
+    color: black;
+    background-color: white;
+}
+
+#logo-burger {
+    display: flex;
+    align-items: center;
+    color: #ff8d1d;
+}
+
+
+#logo {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo,
+#main-nav a {
+    text-decoration: none;
+
+}
+
+#main-nav {
+    display: flex;
+    margin-right: .5em;
+    list-style: none;
+
+}
+
+#main-nav a {
+    display: block;
+    margin-left: 1em;
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+#main-nav a:hover {
+    color: black;
+}
+
+.active {
+    color: black;
+}
+
+.hidden {
+    display:none;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+
+/* HJEM*/
+
+#bon {
+    width: 100%;
+    
+}
+
+#bonbillede {
+    width: 100%;
+}
+
+#ruslan-cinema {
+    width:100%;
+}
+
+#container4 {
+    margin: 20px;
+}
+
+/*Det kræver blot at...*/
+#intro-tekst {
+    margin: 20px;
+
+}
+
+/*sådan virker det*/
+
+.steps {
+    margin: 27px;
+}
+
+.steps-ikoner {
+    width:10%;
+}
+
+.steps-tal {
+    width:10%;
+}
+
+.trin {
+    display:flex;
+    align-items: flex-start;
+    padding-bottom: 2em;
+}
+
+.trin p {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#win-ikon {
+    margin-top: -4%;
+}
+
+/*download app og pil ned*/
+#double-arrows {
+    width: 12%;
+}
+
+#container2 {
+    margin-left: 1.5em;
+    display: flex;
+    align-items: flex-start;
+}
+
+#download {
+    background-color: #16849e;
+    color:#fff;
+    width:50%;
+    font-size: 2em;
+    padding-left: 0.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 12px;
+}
+
+#how-it-works {
+    width: 50%;
+}
+
+#how-it-works p {
+    font-weight: bold;
+    padding-left: 3em;
+}
+
+#how-it-works img {
+    margin-left: 6em;
+    margin-top: -30px;
+}
+
+#how-it-works a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* STEDER*/
+
+.cafe-tekst {
+    margin-bottom: 0;
+}
+
+#steder h2 {
+    font-size: 1.3em;
+}
+
+iframe {
+    width:100%;
+    height: 480px;
+    margin-bottom: 2em;
+}
+
+.steder h1{
+    margin-left:0;
+    padding-left:0;
+    margin-top: 1em;
+}
+
+.steder {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+/* OM OS*/
+
+#omosbillede {
+    width: 100%;
+
+}
+
+.omostekst {
+    margin: 20px;
+    margin-left: 0;
+}
+
+.omostekst h1 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#diplom {
+    width:100%;
+}
+
+.team {
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 3em;
+    
+}
+
+.team img {
+    width:25%;
+}
+
+.navn {
+    font-weight: bold;
+}
+
+.info {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+
+
+/*FOOTER*/
+footer {
+    background-color: white;
+    color: #052607;
+    font-size: 0.75em;
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    border-top: solid 3px #ff8d1d;
+}
+
+.billeder img {
+    width: 31%;
+    padding-right: 10px;
+     padding-right: 10px;
+    
+}
+
+.billeder {
+    width: 30%;
+    padding-right: 10px;
+     padding-right: 10px;
+}
+
+footer div {
+    margin: 0px 10px 15px 5px;
+}
+
+
+/*MEDIA QUERY MOBILE */
+
+@media all and (max-width: 599px) {
+
+    /*HEADER NAV*/
+    header {
+        display: block;
+    }
+
+    #logo img {
+        width: 35%;
+    }
+
+    #logo-burger {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #logo-burger label {
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    #toggle:checked + #main-nav {
+        display: block;
+    }
+
+    #main-nav {
+        display: none;
+    }
+
+    #main-nav li:last-of-type {
+        border-bottom: none;
+    }
+
+       #main-nav li {
+        text-align: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+
+
+
+/*MEDIA QUERY TABLET AND ABOVE*/
+
+@media all and (min-width: 600px) {
+
+    /*HEADER NAV*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    #logo-burger {
+        margin: 0;
+    }
+
+    #logo {
+        margin-top: 5px;
+
+    }
+
+     #logo img {
+        margin-left: 4em;
+        width: 11em;
+    }
+    
+    #main-nav {
+        justify-content: space-between;
+        width: 100%;
+        margin: 8px;
+    }
+
+    #main-nav a {
+        margin: 10px;
+    }
+
+    .hidden {
+        display: none;
+    }
+/*This removes the burger menu icon*/
+    label {
+        display: none;
+    }
+        
+    
+    /*FOOTER*/
+    
+    footer{
+        font-size: 0.8em;
+    }
+    
+    .billeder {
+        width: 200px;
+        height: auto;
+    }
+    
+    /*FORSIDE*/
+    
+    #download {
+        width: 38%;
+    }
+    
+    #double-arrows {
+        width: 7%;
+    }
+    
+    .steps-ikoner {
+        width: 8%;
+    }
+    
+    .steps-tal {
+        width: 8%;
+    }
+    
+    #tekst2 {
+        margin-left: 7em;
+        margin-right: 7em;
+    }
+    
+    #tekst-1, .flad, .omostekst, #tekst6, .steder {
+        margin-left: 7em;
+        margin-right: 7em;
+    }
+    
+    .flad h1{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+}
+
+/*MEDIA QUERY LAPTOP AND ABOVE*/
+
+@media all and (min-width: 1024px) {
+
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    
+    /*HEADER*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    #logo img {
+        margin-left: 20%;
+        width: 12em;
+    }
+    
+    body {
+        font-size: 1.15em;
+    }
+    
+     #logo {
+         display: block;
+         margin-left: 60px;
+         
+       
+    }
+    
+    #main-nav {
+        margin-right: 20em;
+    }
+
+    #main-nav a {
+        margin: 10px;
+    }
+    
+    #main-nav li{
+        width: 45%;
+    }
+
+    
+    .footer {
+    flex-direction: row;
+    }
+    
+    .billeder {
+        width: 160px;
+        height: auto;
+    }
+    
+    /*FORSIDE*/
+    
+    /*første sektion forside: billede + tekst*/
+    #bon, #bonbillede, #ruslan-cinema {
+        width: 50%;
+    }
+    
+    #container1 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        margin-top: 2em;
+    }
+    
+    #tekst-1 {
+        width:40%;
+        margin:0;
+        margin-right: 2em;
+    }
+    
+    #bon{
+        margin-top: 2em;
+        width: 60%;
+    }
+    
+    #download {
+        font-size: 1.5em;
+        padding-left: 20px;
+        width:50%;
+    }
+    
+    #double-arrows {
+        width: 15%;
+    }
+    
+    /*anden sektion forside: billede + tekst*/
+    
+    #container3 {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 5em;
+    }
+    
+    #container3 h1{
+        margin-top:0;
+        padding-top:0;
+    }
+    
+    .steps-ikoner{
+        width: 8%;
+    }
+    
+    #tekst2 {
+        margin:0;
+        margin-left: 2em;
+    }
+    
+    /*tredje sektion forside: billede + tekst*/
+    
+    
+    .flad h1 {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    
+    .flad {
+        width: 40%;
+        margin-right: 3em;
+        margin-left: 0;
+    }
+    
+    #container4 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+    }
+    
+    #ruslan-cinema {
+        width: 60%;
+    }
+    
+    /*OM OS*/
+    
+    /*Første sektion om os - billede + tekst*/
+    
+    #container5 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        margin-top: 5em;
+    }
+    
+    #omosbillede {
+        width:50%;
+    }
+    
+    .omostekst h1 {
+        margin-left: 0;
+        padding-top: 0;
+        margin-top: 0;
+        padding-left: 0;
+        top:0;
+    }
+    
+    .omostekst {
+        margin-right: 3em;
+    }
+    
+    /*Anden sektion om os - billede + tekst*/
+    
+    #diplom {
+        width:50%;
+    }
+    
+    #container6 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        margin-top: 5em;
+    }
+    
+    .team {
+        margin-left: 0;
+    }
+    
+    #tekst6 {
+        margin-left: 3em;
+        margin-right: 0;
+    }
+    
+    /*STEDER*/
+    
+    .steder {
+       margin-left: 6em;
+        margin-right: 6em;
+    }
+}
+
+
+
+
+
+
+
+
+
